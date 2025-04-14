@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Blog Post</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  </head>
+  <body style="background-color: #f8f9fa; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #333;">
+
+    <div class="container my-5" style="background-color: #fff; padding: 30px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+
+      <h2 class="text-center mb-4" style="color: #0056b3; font-weight: bold;">
+        Building a Symptom-Based Disease Diagnosis Web App with Flask & Machine Learning
+      </h2>
+
+      <p style="font-size: 16px; line-height: 1.7;">
+        In today’s digital era, timely access to accurate health information has become a necessity. As the demand for remote healthcare continues to rise, our team conceptualized and developed a symptom-based disease prediction platform. By integrating a Flask-powered backend with a machine learning model (Decision Tree Classifier), we aimed to simplify disease diagnosis for end-users in real-time.
+      </p>
+
+      <h3 style="color: #007b5e; margin-top: 30px;">The Problem</h3>
+      <p style="font-size: 16px; line-height: 1.7;">
+        Many individuals face uncertainty when experiencing unfamiliar symptoms and often turn to unreliable sources for self-diagnosis. Given the overlapping nature of symptoms among different illnesses, we wanted to provide a more reliable, AI-based tool to assist users in identifying possible diseases and taking informed next steps.
+      </p>
+
+      <h3 style="color: #007b5e; margin-top: 30px;">The Solution</h3>
+      <p style="font-size: 16px; line-height: 1.7;">
+        We engineered a web application that allows users to enter their symptoms and receive an AI-generated prediction of potential health conditions. The process involved:
+      </p>
+
+      <ol style="font-size: 16px; line-height: 1.7;">
+        <li><strong>Symptom Input:</strong> An interactive and responsive UI was developed to collect user-reported symptoms using dropdowns, auto-suggestions, and checkboxes.</li>
+        <li><strong>ML Model Integration:</strong> A Decision Tree Classifier was trained on a well-structured dataset mapping symptoms to diseases. This supervised learning model was chosen for its interpretability and fast inference capabilities.</li>
+        <li><strong>Prediction Output:</strong> Based on the user’s input, the model predicts the most likely disease and displays the results instantly.</li>
+        <li><strong>Knowledge Enhancement:</strong> Users are presented with comprehensive details including disease overview, symptoms, prevention tips, dietary suggestions, medications, and recommended workouts.</li>
+      </ol>
+
+      <h3 style="color: #007b5e; margin-top: 30px;">Key Features</h3>
+      <ul style="font-size: 16px; line-height: 1.7; list-style-type: disc; padding-left: 20px;">
+        <li><strong>Interactive Interface:</strong> Easy-to-use design powered by Bootstrap, enabling symptom selection with minimal friction.</li>
+        <li><strong>AI-Driven Accuracy:</strong> The ML model offers reliable predictions using historical health data, improving with continued model tuning and dataset enhancement.</li>
+        <li><strong>In-depth Disease Insights:</strong> The application educates users with holistic health information related to the predicted condition.</li>
+        <li><strong>Dynamic Content:</strong> Additional resources including health tips, recent medical discoveries, and awareness blogs are embedded to boost user knowledge.</li>
+      </ul>
+
+      <h3 style="color: #007b5e; margin-top: 30px;">Technology Stack</h3>
+      <ul style="font-size: 16px; line-height: 1.7; list-style-type: square; padding-left: 20px;">
+        <li><strong>Frontend:</strong> HTML, CSS, Bootstrap</li>
+        <li><strong>Backend:</strong> Flask (Python)</li>
+        <li><strong>Machine Learning:</strong> Scikit-learn (DecisionTreeClassifier)</li>
+        <li><strong>Data Processing:</strong> Pandas, NumPy</li>
+        <li><strong>Visualization:</strong> Matplotlib, Seaborn</li>
+      </ul>
+
+      <h3 style="color: #007b5e; margin-top: 30px;">Impact & Future Scope</h3>
+      <p style="font-size: 16px; line-height: 1.7;">
+        This project is a step toward democratizing healthcare access by placing AI in the hands of users. With plans to integrate real-time user feedback, multilingual support, chatbot features, and broader datasets, we envision making this tool more robust, inclusive, and intelligent over time.
+      </p>
+
+      <h3 style="color: #007b5e; margin-top: 30px;">Conclusion</h3>
+      <p style="font-size: 16px; line-height: 1.7;">
+        Our Symptom-Based Disease Diagnosis Web App bridges the gap between medical information and accessibility by empowering users with technology-driven tools. It supports early identification, offers health awareness, and encourages proactive steps — all from the comfort of a user’s device.
+      </p>
+      <p style="font-size: 16px; line-height: 1.7;">
+        We believe that the fusion of AI and healthcare has the potential to transform lives, and this platform is a testament to that vision. Stay tuned as we evolve it further to bring even greater value to users across the globe.
+      </p>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  </body>
+</html>
