@@ -4,6 +4,10 @@ Welcome to **PANDx AI**, an intelligent healthcare assistant designed to provide
 
 ---
 
+# Live post: https://www.linkedin.com/posts/umar-alam-khan_excited-ai-machinelearning-activity-7317358004100612098-wKII?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD-syYsBKd9HWIEqgk_fRUjb1v5b9uRQhiU
+
+---
+
 ## 🚀 *Project Highlights*
 
 - 🔍 **95%+ Prediction Accuracy** using a trained Support Vector Classifier (SVC) on multi-disease datasets.
@@ -81,42 +85,31 @@ Welcome to **PANDx AI**, an intelligent healthcare assistant designed to provide
 - **Diet:** Hydrating fruits, light carbohydrates, iron-rich foods
 - **Workout:** Light walking, low-intensity physical activity
 
-  1. Disease Description
-Provides a concise medical overview of the predicted disease.
-
-Explains the cause, mechanism, and common symptoms to help users understand the condition in plain language.
-
-Information is sourced from the description.csv dataset and dynamically retrieved based on the model’s prediction.
+1. Disease Description
+-Provides a concise medical overview of the predicted disease.
+-Explains the cause, mechanism, and common symptoms to help users understand the condition in plain language.
+-Information is sourced from the description.csv dataset and dynamically retrieved based on the model’s prediction.
 
 2. Precautionary Measures
-Lists 4 actionable precautions tailored to the diagnosed disease.
-
-Helps prevent the condition from worsening and assists in early recovery or symptom management.
-
-Examples include lifestyle adjustments, hygiene practices, or environmental cautions.
-
-Data is extracted from precautions_df.csv.
+-Lists 4 actionable precautions tailored to the diagnosed disease.
+-Helps prevent the condition from worsening and assists in early recovery or symptom management.
+-Examples include lifestyle adjustments, hygiene practices, or environmental cautions.
+-Data is extracted from precautions_df.csv.
 
 3. Medications
-Recommends top medications commonly prescribed for the predicted disease.
-
-Medication data is mapped from medications.csv and includes non-branded names typically used in diagnosis-related treatment plans.
-
-The suggestions are informative and not prescriptive (meant to educate, not replace medical advice).
+-Recommends top medications commonly prescribed for the predicted disease.
+-Medication data is mapped from medications.csv and includes non-branded names typically used in diagnosis-related treatment plans.
+-The suggestions are informative and not prescriptive (meant to educate, not replace medical advice).
 
 4. Workouts
-Suggests safe physical activities or workouts based on the nature of the disease.
-
-For chronic or recovery-phase illnesses, light exercises such as walking or breathing routines are proposed.
-
-Fetched from workout_df.csv to promote overall wellness and aid physical recovery.
+-Suggests safe physical activities or workouts based on the nature of the disease.
+-For chronic or recovery-phase illnesses, light exercises such as walking or breathing routines are proposed.
+-Fetched from workout_df.csv to promote overall wellness and aid physical recovery.
 
 5. Diet Recommendations
-Recommends a custom diet plan supportive of treatment and recovery.
-
-Includes food items to boost immunity, reduce inflammation, or restore lost nutrients.
-
-Pulled from diets.csv, this data is curated to align with the nutritional needs of the disease in focus.
+-Recommends a custom diet plan supportive of treatment and recovery.
+-Includes food items to boost immunity, reduce inflammation, or restore lost nutrients.
+-Pulled from diets.csv, this data is curated to align with the nutritional needs of the disease in focus.
 
 
 
